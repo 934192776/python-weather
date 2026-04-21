@@ -26,7 +26,6 @@ def get_forecast_weather(city):
     response = requests.get(url)
     return response.json()
 
-
 def display_current_weather(city):
     data = get_current_weather(city)
 
